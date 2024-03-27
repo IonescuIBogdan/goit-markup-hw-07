@@ -534,7 +534,6 @@ textarea {
   font-weight: 700;
   font-size: 36px;
   color: #2e2f42;
-  text-align: center;
 }
 
 
@@ -829,6 +828,18 @@ textarea {
 .js-menu-container.is-open {
   display: flex;
   flex-direction: column;
+  position: fixed;
+  background-color: #fff;
+  z-index: 1;
+  height: 100%;
+  width: 50%;
+  padding: 40px;
+}
+
+.js-close-menu {
+  border: none;
+  background: none;
+  align-self: end;
 }
 
 .nav-clas-a {
