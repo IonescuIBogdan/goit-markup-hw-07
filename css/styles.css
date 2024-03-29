@@ -164,6 +164,7 @@ ul {
   gap: 24px;
   margin-top: 8px;
   margin-bottom: 32px;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -577,6 +578,7 @@ textarea {
 
 .our-team .container {
   padding: 94px 0;
+  flex-wrap: wrap;
 }
 
 .our-team-cards {
@@ -599,6 +601,7 @@ textarea {
 
 .our-team {
   background-color: #f4f4fd;
+  flex-wrap: wrap;
 }
 
 .our-goals {
@@ -896,69 +899,27 @@ textarea {
     display: flex;
     width: 261px;
     height: 24px;
-    justify-content: space-between;
-    margin-right: 332px;
   }
   .adress {
     display: flex;
+    flex-direction: column;
+    margin-right: 160px;
   }
-  .o-g-class::before {
-    content: url("../icons/antenna.svg");
-    display: block;
-    color: #000000;
-    outline: none;
-  }
-  
-  .o-g-class1::before {
-    content: url("../icons/clock.svg");
-    display: block;
-  }
-  
-  .o-g-class2::before {
-    content: url("../icons/diligence.svg");
-    display: block;
-  }
-  
-  .o-g-class3::before {
-    content: url("../icons/technologies.svg");
-    display: block;
-  }
-  .our-goals-container {
+
+  .our-goals {
     display: flex;
-    padding: 94px 0;
-    justify-content: center;
-    align-items: center;
-  }
-  .our-goals-container {
-    display: flex;
-    padding: 94px 0;
-    justify-content: center;
-    align-items: center;
-  }
-  .card-images .container {
-    padding: 94px 0;
-    align-items: center;
-    text-align: center;
-  }
-  .our-team-cards {
-    display: flex;
-    justify-content: space-between;
-  }
-  .c-i-clasa {
-    display: flex;
-    justify-content: space-between;
-  }
-  .our-team-cards {
-    display: flex;
+    padding: 94 0;
     flex-wrap: wrap;
   }
-  .our-team-cards .icon-list {
+
+  .our-goals-container {
     display: flex;
-    gap: 24px;
+    padding: 94px 0;
     justify-content: center;
-    margin-top: 8px;
-    margin-bottom: 32px;
+    align-items: center;
+    flex-wrap: wrap;
   }
+  
   .burger-menu {
     display: none;
   }
@@ -966,9 +927,8 @@ textarea {
     display: none;
   }
   .container {
-    width: 1200px;
     margin: 0 auto;
-    flex-wrap: wrap;
+    width: 768px;
   }
   .card-images .container {
     padding: 94px 0;
@@ -978,7 +938,8 @@ textarea {
     border-bottom: 1px solid #e7e9fc;
     align-items: center;
     box-sizing: border-box;
-    height: 70px;
+    height: 72px;
+    justify-content: space-between;
   }
   
   .footer {
@@ -1089,6 +1050,7 @@ textarea {
     gap: 24px;
     margin-top: 8px;
     margin-bottom: 32px;
+    flex-wrap: wrap;
   }
   
   .logo {
@@ -1182,12 +1144,7 @@ textarea {
     content: url("../icons/technologies.svg");
     display: block;
   }
-  .our-goals-container {
-    display: flex;
-    padding: 94px 0;
-    justify-content: center;
-    align-items: center;
-  }
+  
   .our-goals-container {
     display: flex;
     padding: 94px 0;
